@@ -1,0 +1,22 @@
+{
+    "name": "xjw/excel",
+    "description": "php excel导入 导出",
+    "type": "library",
+    "require": {
+        "php": ">5.0",
+        "phpoffice/phpspreadsheet": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiajunwei",
+            "email": "317681472@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Xjw\\": "src/"
+        }
+    }
+}
